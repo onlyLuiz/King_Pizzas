@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Pizzas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="pizzalogo.png" type="image/x-icon">
+</head>
+<body>
+    <header id="header">
+       <h1>King Pizzas <picture><img src="coroa.png" alt="coroa" class="coroa"></picture></h1>
+        <picture>
+            <img src="pizzalogo.png" alt="logo">
+        </picture>
+    </header>
+    <nav>
+        <picture  class="drop" onmouseover="naOver(this)"  onmouseout="navOut(this)">
+            <span class="drop-content">
+                <a href="#home" class="defaultlink" onmouseover="linkOver(this)" onmouseout="linkOut(this)" onclick="linkClick(this)">Home</a>
+                <a href="#sobre" class="defaultlink" onmouseover="linkOver(this)" onmouseout="linkOut(this)" onclick="linkClick(this)">Sobre</a>
+                <a href="#contato" class="defaultlink" onmouseover="linkOver(this)" onmouseout="linkOut(this)" onclick="linkClick(this)">Contato</a>
+            </span>
+        </picture>
+    </nav>
+    <main>
+        <article class="home" id="home,">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, totam. Soluta dicta iusto molestias repellat in nisi? Nesciunt nisi delectus adipisci nam, hic aliquam sapiente incidunt labore dolorum impedit a.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rerum, blanditiis ullam quam totam commodi quaerat error ratione doloremque quos consectetur natus, aspernatur repudiandae architecto voluptates autem, cum est fugit?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio suscipit perferendis, enim voluptates voluptas facere cupiditate placeat recusandae officiis obcaecati dolorum nihil culpa provident, odio repellendus nesciunt facilis. Nesciunt, cupiditate?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab est beatae non itaque. Repellendus doloribus cum hic possimus veritatis quia non quis sed excepturi, nam consectetur, ab reprehenderit, explicabo impedit!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est recusandae nisi vero magnam ab iste, quam officiis obcaecati. Cum quo illo ullam quidem cupiditate debitis, eius est cumque corrupti nisi.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque adipisci ex? Culpa obcaecati sed quos quae magni ducimus, nam perferendis eligendi distinctio, id officiis temporibus laborum earum, ad ut.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id repudiandae laudantium aperiam doloremque voluptatibus praesentium sequi ut nemo, consequatur neque sint in corporis magnam harum illum libero illo doloribus? Eius
+        </article>
+
+        <article class="sobre" id="sobre">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatibus quos, excepturi sint repellendus corporis, totam molestiae numquam doloribus exercitationem sed quisquam aliquam ipsa laborum sunt, rem ab fugiat necessitatibus.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit natus voluptatum libero corrupti, ut repellat enim! Esse quibusdam accusantium, nobis fugiat facere necessitatibus non nisi, commodi cumque animi enim autem?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ut nemo impedit corporis porro rerum totam blanditiis necessitatibus placeat voluptate itaque fugit maiores mollitia reiciendis reprehenderit magnam, dolorem quia omnis.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo minus autem mollitia ex consequatur officiis, officia minima sequi, aperiam voluptatum deleniti, nisi laborum obcaecati molestias velit consectetur sunt dolore modi?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, quo suscipit corrupti dignissimos voluptatem quam, saepe, odit nisi nihil amet itaque? Architecto dolorum dolore nulla, ab amet odio temporibus quibusdam.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam vero ut quaerat saepe sed fugiat, odio provident repudiandae hic officia quam sunt dolorem sit ipsa facere impedit similique blanditiis commodi.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa temporibus numquam quaerat deserunt eum eveniet cupiditate cum, ratione illum assumenda necessitatibus ipsa inventore dolores odit repellendus dicta, cumque asperiores error!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At inventore illum rerum itaque placeat debitis eius sed, eum repellendus perferendis optio doloremque tempore blanditiis dignissimos commodi ratione voluptatum nesciunt iure.
+        </article>
+    </main>
+    <form action="" method="get" id="contato">
+        <fieldset>
+            <legend>Contato</legend>
+            <label for="nome">Insira seu nome:
+              <input type="text" name="nome" id="nome" placeholder="Insira o seu nome" class="default" onfocus="mouFocus(this)" onblur="mouBlur(this)">
+            </label>
+
+            <label for="email" >Insira seu email:
+             <input type="email" name="email" id="email" placeholder="Insira seu email" class="default" onfocus="mouFocus(this)" onblur="mouBlur(this)">
+            </label>
+
+            <label for="coment">Insira sua Mensagem:
+             <textarea name="coment" id="coment" cols="30" rows="10" class="default" placeholder="Insira sua mensagem"  onfocus="mouFocus(this)" onblur="mouBlur(this)"></textarea>
+            </label>
+        </fieldset>
+    </form>
+    <footer>
+        <p>Siga-nos nas nossas  redes sociais:</p>
+        <a href="https://pt-br.facebook.com/" target="_blank" class="face"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" class="insta"><i class="fab fa-instagram"></i></a>
+        <a href="#header" class="footDefault topo" onmouseover="footOver(this)"  onmouseout="footOut(this)">Voltar ao topo</a>
+    </footer>
+</body>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</html>
