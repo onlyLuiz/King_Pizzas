@@ -115,6 +115,7 @@ article{
     font-size: 1.3em;
     background-color: rgb(225, 225, 225,0.8);
     text-align: justify;
+    text-justify: inter-word;
 }
 
 .home{
